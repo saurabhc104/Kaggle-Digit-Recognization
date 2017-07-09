@@ -45,8 +45,3 @@ sub.Label = res
 sub.to_csv("digit.csv",sep=',',index=False)
 
 
-
-#ax.scatter(X[:,0],X[:,1],y,marker='*',c='r')
-
-
-#print(clf.predict([[-0.8, -1]]))
