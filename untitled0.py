@@ -17,8 +17,8 @@ style.use('ggplot')
 fig = plt.figure()
 
 import numpy as np
-df = pd.read_csv("/media/saurabh/04A49C18A49C0E74/cutiema007203/DigitRecognizer/train.csv")
-test = pd.read_csv("/media/saurabh/04A49C18A49C0E74/cutiema007203/DigitRecognizer/test.csv")
+df = pd.read_csv("/media/saurabh/04A49C18A49C0E74/DigitRecognizer/train.csv")
+test = pd.read_csv("/media/saurabh/04A49C18A49C0E74/DigitRecognizer/test.csv")
 
 columns = df.columns
 columns = columns[1:]
